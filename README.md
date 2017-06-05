@@ -14,3 +14,4 @@ cd ~/경로/ && git clone https://github.com/psh845/vimset.git && sh ~/경로/vi
 - dia : http://dia-installer.de
 - vim-go : https://github.com/fatih/vim-go
 - jellybeans : https://github.com/nanotech/jellybeans.vim
+# vimset
