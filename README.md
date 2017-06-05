@@ -19,5 +19,4 @@ cd ~/경로/ && git clone https://github.com/psh845/vimset.git && sh ~/경로/vi
 - vim-go : https://github.com/fatih/vim-go
 - jellybeans : https://github.com/nanotech/jellybeans.vim
 
-# 참고사항: 아래의 주소를 통해 소스를 받아서 올림
 
