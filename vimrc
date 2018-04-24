@@ -1,18 +1,21 @@
-set nocompatible	" nocp : 호환성 끄기. Vim 전용 기능 사용
-set mouse=c         " a=on, c=off
-set history=1000	" hi : 명령어 기록 갯수
-set autochdir		" 파일 열면 vim의 작업 디렉토리를 그 파일이 있는 디렉토리로
-set lpl				" Plugin loading when start
+set nocompatible		" nocp : 호환성 끄기. Vim 전용 기능 사용
+set mouse=c     		" a=on, c=off
+set history=1000		" hi : 명령어 기록 갯수
+set autochdir   		" 파일 열면 vim의 작업 디렉토리를 그 파일이 있는 디렉토리로
+set lpl         		" Plugin loading when start
 set paste
 set clipboard=unnamed 
 set nofoldenable
+set nobackup     		" no backup files
+"set nowritebackup		" only in case you don't want a backup file while editing
+"set noswapfile   		" no swap files
 
 "=== Default ===
-set showmatch				 " ().{} 에서 닫는 괄호를 입력할 때 일치하는 괄호를 보여준다.
-set ignorecase				 " Case insensitive matching.
-set hlsearch				 " Highlight search matches.
-set bs=indent,eol,start  " BS로 라인끝과 처음 자동들여쓰기한 부분을 지날 수 있음
-set ru                   " show curor always
+set showmatch    		" ().{} 에서 닫는 괄호를 입력할 때 일치하는 괄호를 보여준다.
+set ignorecase   		" Case insensitive matching.
+set hlsearch    		" Highlight search matches.
+set bs=indent,eol,start	" BS로 라인끝과 처음 자동들여쓰기한 부분을 지날 수 있음
+set ru          		" show curor always
 
 "=== encoding ===
 if has("unix")
