@@ -1,5 +1,5 @@
 set nocompatible	" nocp : 호환성 끄기. Vim 전용 기능 사용
-set mouse=a
+set mouse=a			" a=on, c=off
 set history=1000	" hi : 명령어 기록 갯수
 set autochdir		" 파일 열면 vim의 작업 디렉토리를 그 파일이 있는 디렉토리로
 set lpl				" Plugin loading when start
